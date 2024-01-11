@@ -1,4 +1,4 @@
-# ZOHO CRM RUBY sdk 5.0 for API Version 5
+# ZOHO CRM RUBY SDK 5.0 for API Version 5
 
 The Ruby SDK for Zoho CRM allows developers to easily create Ruby applications that can be integrated with Zoho CRM. This SDK serves as a wrapper for the REST APIs, making it easier to access and utilize the services of Zoho CRM. 
 Authentication to access the CRM APIs is done through OAuth2.0, and the authentication process is streamlined through the use of the Ruby SDK. The grant and access/refresh tokens are generated and managed within the SDK code, eliminating the need for manual handling during data synchronization between Zoho CRM and the client application.
