@@ -25,6 +25,20 @@ License
 
 ## Latest Version
 
+- [2.0.0](/versions/2.0.0/README.md)
+
+    - Update RecordLockingOperations class constructor and methods.
+
+    - Added new parentColumnIndex field in BulkWrite FieldMapping class.
+
+    - Added new fileNames field in BulkWrite Resource class.
+
+    - Support for the following new APIs. 
+        - MailMerge:
+            - [Send Mail Merge](https://www.zoho.com/crm/developer/docs/api/v5/send-mail-merge.html)
+            - [Sign Mail Merge](https://www.zoho.com/crm/developer/docs/api/v5/sign-mail-merge.html)
+            - [Download Mail Merge](https://www.zoho.com/crm/developer/docs/api/v5/download-mail-merge.html)
+
 - [1.0.0](/versions/1.0.0/README.md)
 
     - Added new key in FileStore and DBStore
@@ -53,7 +67,7 @@ For older versions, please [refer](https://github.com/zoho/zohocrm-Ruby-sdk-5.0/
 
 You can include the SDK to your project using:
 
-- For including the latest [version](https://github.com/zoho/zohocrm-ruby-sdk-5.0/releases/tag/1.0.0)
+- For including the latest [version](https://github.com/zoho/zohocrm-ruby-sdk-5.0/releases/tag/2.0.0)
 
   - Ruby SDK is available through Gem . You can download the gem using:
 `gem install ZOHOCRMSDK5_0` 
@@ -100,4 +114,4 @@ You can include the SDK to your project using:
       gem install webrick
     ```
 
-For more details, kindly refer [here](/versions/1.0.0/README.md).
+For more details, kindly refer [here](/versions/2.0.0/README.md).
